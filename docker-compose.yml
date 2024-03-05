@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-prod
-    image: resume-site
+    image: registry.digitalocean.com/skz-registry-container/resume-site
     ports:
       - 80:80
       - 443:443
