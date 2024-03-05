@@ -63,4 +63,9 @@ jobs:
             # Remove old container
             docker rm $(echo $IMAGE_NAME)
             # Run a new container from a new image
-            docker compose up
+            docker run -d \
+            --restart always \
+            --name $(echo $IMAGE_NAME) \
+            -p 80:80 \
+            -p 433:433 \
+            $(echo $REGISTRY)/$(echo $IMAGE_NAME):latest
