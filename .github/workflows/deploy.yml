@@ -68,6 +68,6 @@ jobs:
             docker run -d \
             --restart always \
             --name $(echo $IMAGE_NAME) \
-            -p 80:80 \
             -p 443:443 \
+            -v /root/certs:/etc/nginx/certs \
             $(echo $REGISTRY)/$(echo $IMAGE_NAME):latest
