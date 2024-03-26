@@ -4,8 +4,5 @@ services:
       context: .
       dockerfile: Dockerfile-prod
     image: registry.digitalocean.com/skz-registry-container/resume-site:latest
-    ports:
-      - 80:80
-      - 443:443
     volumes:
       - /root/certs:/etc/nginx/certs
