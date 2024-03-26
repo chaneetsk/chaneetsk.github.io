@@ -63,7 +63,7 @@ jobs:
             # Remove old container
             docker rm $(echo $IMAGE_NAME)
             #Pull image
-            docker pull ${echo $IMAGE_NAME}
+            docker pull $(echo $REGISTRY)/$(echo $IMAGE_NAME):latest
             # Run a new container from a new image
             docker run -d \
             --restart always \
