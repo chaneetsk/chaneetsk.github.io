@@ -2,7 +2,7 @@ import { HiArrowDown } from 'react-icons/hi'
 
 export default function Main() {
   return (
-    <main className="flex justify-center items-center h-dvh mt-[-8rem]">
+    <main className="flex justify-center items-center h-dvh mt-[-5rem]">
       <div className="max-w-[1080px] p-6">
         <p className="text-accent-color-0 py-1">Hi, my name is</p>
         <h1 className="font-bold text-4xl sm:text-7xl text-white">Sanjeet Kanwar</h1>
