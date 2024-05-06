@@ -1,9 +1,8 @@
 // import { useState } from 'react';
 // import { FaBars, FaTimes, FaLinkedin, FaEnvelope} from 'react-icons/fa';
-import Logo from '/assets/logo.png';
+import Logo from "/assets/logo.png";
 
 export default function Header() {
-
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="w-full h-[80px] flex justify-between items-center px-4 text-white">
@@ -33,5 +32,5 @@ export default function Header() {
         </nav>
       } */}
     </header>
-  )
+  );
 }

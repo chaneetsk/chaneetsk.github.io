@@ -1,7 +1,7 @@
-import Experience from './components/Experience/Experience'
-import Home from './components/Home/Home'
-import Skills from './components/Skills/Skills'
-import Contact from './components/Contact/Contact'
+import Experience from "./components/Experience/Experience";
+import Home from "./components/Home/Home";
+import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Contact />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
